@@ -1,0 +1,19 @@
+<template>
+<lightning-card title="iterator">
+<template iterator:it={devices}>
+    <p key={it.value}>{it.value}</p>
+</template>
+</lightning-card>
+
+     <lightning-card title="for each">
+      <template for:each={devices} for:item="eachDevice">
+        <p key={eachDevice}>{eachDevice}</p>
+      </template>
+     </lightning-card>
+     
+    <lightning-card title="Devices">
+        <p>{devices}</p>
+    </lightning-card>
+
+
+</template>

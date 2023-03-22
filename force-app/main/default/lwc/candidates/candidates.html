@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Candidates">
+      <template for:each={candidates} for:item="eachCan">
+    <hr key={eachCan}>
+        
+    <ul key={eachCan}>
+        <li>{eachCan.Name}</li>
+        <li>{eachCan.country}</li>
+        <li>{eachCan.city}</li>
+        <li>{eachCan.experience}</li>
+    </ul>
+
+
+      </template>
+    </lightning-card>
+</template>
