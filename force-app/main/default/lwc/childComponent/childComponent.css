@@ -1,0 +1,9 @@
+div{
+    color:rgb(218, 23, 39);
+    background-color: blue;
+    text-align: center;
+}
+p{
+    text-align: var(--custom-p-align-text, center);
+    background-color: var(--cutom-bg-color, rgb(231, 25, 187));
+}

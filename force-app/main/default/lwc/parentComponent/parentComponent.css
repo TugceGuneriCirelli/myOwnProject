@@ -1,0 +1,10 @@
+h1{
+    color:aqua;
+}
+c-child-component{
+    color:rgb(14, 218, 34);
+}
+.class-for-parent{
+    --slds-c-input-text-color:rgb(17, 249, 87);
+    --slds-c-input-color-background:rgb(226, 96, 20);
+}
